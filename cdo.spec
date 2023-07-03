@@ -8,7 +8,7 @@ URL:            https://code.mpimet.mpg.de/projects/cdo
 Source0:        https://code.mpimet.mpg.de/attachments/download/28013/cdo-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-BuildRequires:  netcdf-devel,udunits2-devel,proj-devel,gcc-c++
+BuildRequires:  netcdf-devel,udunits2-devel,proj-devel,gcc-c++,python
 
 %description
 CDO (Climate Data Operatores) is a collection of command line Operators
