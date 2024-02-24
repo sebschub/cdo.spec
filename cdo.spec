@@ -22,7 +22,7 @@ There are more than 600 operators available.
 %build
 export CPPFLAGS="$RPM_OPT_FLAGS -I%{_includedir}/netcdf -I%{_includedir}/hdf5 -I%{_includedir}/proj -I%{_includedir}/udunits2/"
 # export LDFLAGS=-L%{_libdir}/netcdf-3
-%configure --with-netcdf --with-hdf5 --with-udunits2=/usr/include --with-proj=/usr/include --with-zlib
+%configure --with-eccodes --with-netcdf --with-hdf5 --with-udunits2=/usr/include --with-proj=/usr/include --with-zlib
 make %{?_smp_mflags}
 unset CPPFLAGS LDFLAGS
 
