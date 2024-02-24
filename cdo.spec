@@ -8,7 +8,7 @@ URL:            https://code.mpimet.mpg.de/projects/cdo
 Source0:        https://code.mpimet.mpg.de/attachments/download/29313/cdo-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-BuildRequires:  netcdf-devel,udunits2-devel,proj-devel,gcc-c++,python3
+BuildRequires:  eccodes-devel,netcdf-devel,udunits2-devel,proj-devel,gcc-c++,python3
 
 %description
 CDO (Climate Data Operatores) is a collection of command line Operators
@@ -41,6 +41,9 @@ rm -rf ${RPM_BUILD_ROOT}
 
 
 %changelog
+* Sat Feb 24 2024 Sebastian Schubert <schubert.seb@gmail.com> - 2.4.0-2
+- Add eccodes support
+
 * Sat Feb 24 2024 Sebastian Schubert <schubert.seb@gmail.com> - 2.4.0-1
 - Update to 2.4.0
 
