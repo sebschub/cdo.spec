@@ -1,6 +1,6 @@
 Name:           cdo
 Version:        2.4.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A program for manipulating GRIB/NetCDF/SERVICE/EXTRA files
 Group:          Applications/Engineering
 License:        GPLv2
