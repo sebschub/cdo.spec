@@ -1,11 +1,11 @@
 Name:           cdo
-Version:        2.5.1
+Version:        2.5.4
 Release:        1%{?dist}
 Summary:        A program for manipulating GRIB/NetCDF/SERVICE/EXTRA files
 Group:          Applications/Engineering
 License:        GPLv2
 URL:            https://code.mpimet.mpg.de/projects/cdo
-Source0:        https://code.mpimet.mpg.de/attachments/download/29864/cdo-%{version}.tar.gz
+Source0:        https://code.mpimet.mpg.de/attachments/download/30128/cdo-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  eccodes-devel,netcdf-devel,udunits2-devel,proj-devel,gcc-c++,python3
@@ -41,6 +41,9 @@ rm -rf ${RPM_BUILD_ROOT}
 
 
 %changelog
+* Mi Dez 03 2025 Sebastian Schubert <schubert.seb@gmail.com> - 2.5.4-1
+- Update to 2.5.4
+
 * Wed May 14 2025 Sebastian Schubert <schubert.seb@gmail.com> - 2.5.1-1
 - Update to 2.5.1
 
