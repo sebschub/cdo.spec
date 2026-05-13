@@ -41,7 +41,7 @@ rm -rf ${RPM_BUILD_ROOT}
 
 
 %changelog
-* Tue May 13 2026 Sebastian Schubert <schubert.seb@gmail.com> - 2.6.0-1
+* Wed May 13 2026 Sebastian Schubert <schubert.seb@gmail.com> - 2.6.0-1
 - Update to 2.6.0
 
 * Wed Dec 03 2025 Sebastian Schubert <schubert.seb@gmail.com> - 2.5.4-1
