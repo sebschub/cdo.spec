@@ -5,7 +5,7 @@ Summary:        A program for manipulating GRIB/NetCDF/SERVICE/EXTRA files
 Group:          Applications/Engineering
 License:        GPLv2
 URL:            https://code.mpimet.mpg.de/projects/cdo
-Source0:        https://code.mpimet.mpg.de/attachments/30182/cdo-%{version}.tar.gz
+Source0:        https://code.mpimet.mpg.de/attachments/download/30182/cdo-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  eccodes-devel,netcdf-devel,udunits2-devel,proj-devel,gcc-c++,python3
