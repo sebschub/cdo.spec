@@ -36,13 +36,14 @@ rm -rf ${RPM_BUILD_ROOT}
 
 %files
 %defattr(-,root,root,-)
-%doc README OPERATORS doc/cdo.pdf doc/cdo_refcard.pdf
+%doc README OPERATORS doc/cdo.pdf
 %{_bindir}/*
 
 
 %changelog
 * Wed May 13 2026 Sebastian Schubert <schubert.seb@gmail.com> - 2.6.0-1
 - Update to 2.6.0
+- Remove reference card
 
 * Wed Dec 03 2025 Sebastian Schubert <schubert.seb@gmail.com> - 2.5.4-1
 - Update to 2.5.4
